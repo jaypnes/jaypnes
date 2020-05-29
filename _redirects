@@ -3,3 +3,6 @@ https://jaypnes.netlify.com/* https://jaypnes.com/:splat 301!
 
 # These extra rules are required because HTTPS is not forced
 http://jaypnes.netlify.com/* https://jaypnes.com/:splat 301!
+
+# These extra rules are required because HTTPS is not forced
+http://jaypnes.com/index.html/* https://jaypnes.com/:splat 301!
