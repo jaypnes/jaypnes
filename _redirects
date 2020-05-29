@@ -1,5 +1,5 @@
 # Redirect default Netlify subdomain to primary domain
-https://jpdesign.netlify.com/* https://redp.design/:splat 301!
+https://jaypnes.netlify.com/* https://jaypnes.com/:splat 301!
 
 # These extra rules are required because HTTPS is not forced
-http://jpdesign.netlify.com/* https://redp.design/:splat 301!
+http://jaypnes.netlify.com/* https://jaypnes.com/:splat 301!
