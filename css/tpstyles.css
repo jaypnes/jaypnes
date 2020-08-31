@@ -63,6 +63,8 @@ a {
 
 
 
+
+
 .txt {
 	text-align: left;
 	background-color: none;
@@ -267,7 +269,11 @@ font-stretch: expanded;
 
 
 	.sidebtn:hover {
-		background-color: yellow;
+		background-color: white;
+		border: 0.3px solid black;
+		border-radius: 50%;
+		min-height: 26px;
+		min-width: 26px;
 		cursor: crosshair;
 		transform:  scale(-3,3);
 
@@ -414,7 +420,7 @@ font-stretch: expanded;
 	border: 1px solid black;
 	padding: 4px 4px 4px 4px; 
 	background-color: white;
-	transition: transform 0.1s ease-in 0.05s;
+	transition: transform 0.2s ease-in 0.05s;
 	
 
 }
@@ -465,7 +471,7 @@ font-stretch: expanded;
 
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 700px) {
 	.col {  margin: 1% 2% 1% 0%; }
 	.span_1_8,  .span_3_8, .span_4_8, .span_6_8, .span_7_8 { width: 100%; }
 
