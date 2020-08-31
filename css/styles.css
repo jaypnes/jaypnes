@@ -309,6 +309,7 @@ font-stretch: expanded;
 	border:1px solid black;
 	margin-left: -1px;
 	margin-top:1%;
+	padding-left:1%;
 
 }
 
@@ -419,8 +420,8 @@ font-stretch: expanded;
 	color: black;
 	outline: 1px solid black;
 	width: 7em;
-	margin-left: 2%;
-	margin-right: 0%;
+	margin-left: 0%;
+	margin-right: 2%;
 	font-size: 0.7em;
 	padding-top: 2px;
 	transition: transform 0.1s linear 0.05s;
@@ -520,7 +521,7 @@ font-stretch: expanded;
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 680px) {
-	.col {  margin: 2% 2% 1% 0%; }
+	.col {  margin: 1% 2% 1% 0%; }
 /* 	.span_1_8,  .span_3_8, .span_4_8, .span_6_8, .span_7_8 { width: 100%; }
 
 	.span_8_8 {width:95%;}
@@ -538,11 +539,13 @@ font-stretch: expanded;
 .content-container {
 
 	width:86vw;
+	padding-left: 2%;
 }
 
 .blog-container {
-	width:86vw;
+	width:88vw;
 
+	margin-top:5%;
 	margin-left: -1px;
 }
 
