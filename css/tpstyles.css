@@ -37,7 +37,7 @@ a {
 .block {
 	width:33%;
 	margin-top: 2%;
-	margin-left:25.4%;
+	margin-left:0%;
 	color: red;
 
 }
@@ -46,15 +46,16 @@ a {
 .intro {
 	text-align: left;
 	background-color: none;
+	color:black;
 	width: 50%;
 	margin-left: 0;
-	font-family: bookmania, serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.0em;
 	letter-spacing:-0.03em;
 	line-height: 1em; 
-	border:1px solid;
+	border-bottom: 1px solid black;
+	padding-bottom:2%;
 
 	
 
@@ -108,12 +109,12 @@ a {
 	text-align: left;
 	color: black;
 	width: 60%;
-	margin-left: 10%;
+	margin-left: 0%;
 	font-size: 2em;
 	letter-spacing:-0.07em;
 	line-height: 1em; 
-	margin-top: 15%;
-	margin-bottom: 15%;
+	
+	margin-bottom: 5%;
 
 	
 
@@ -123,11 +124,11 @@ a {
 .caption {
 	text-align: center;
 	background-color: none;
-	font-family: bookmania, serif;
+	color:black;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 0.8em;
-	letter-spacing:-0.07em;
+	letter-spacing:-0.03em;
 	line-height: 1em; 
 	margin-top: 10px;
 
@@ -139,7 +140,7 @@ a {
 .h1, .h2, .h3, .h4 {
   font-weight: inherit;
   
-  color:red;
+  
 }
 
 .h1 {
@@ -170,7 +171,7 @@ font-style: italic; */
 
 
 
-font-family: bookmania, serif;
+
 font-weight: 400;
 font-style: normal;
 
@@ -184,6 +185,7 @@ font-style: normal;
 
 .h4 {font-size: 1.0em;
  letter-spacing: -0.04em;
+ font-weight:800;
  }
 
 small, .font_small {font-size: 0.618em;}
