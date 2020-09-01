@@ -439,7 +439,12 @@ font-stretch: expanded;
 		width: 41vw
 
 	}
-
+.responsiveimg {
+	width: 50%;
+        max-width: 1200px;
+        height: auto;
+        outline: solid black 1px;
+}
 
 
 .navbtn {
