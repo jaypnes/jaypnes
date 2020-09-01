@@ -23,7 +23,10 @@ a {
 	text-decoration: none;
 }
 
-
+ .pacelink {
+	color: red!important;
+	text-decoration: underline;
+}
 
 .concontent {
  
@@ -485,6 +488,8 @@ font-stretch: expanded;
 		width: 41vw
 
 	}
+
+
 
 
 
