@@ -18,6 +18,8 @@ body {
 	text-align: center
 }
 
+
+
 a {
 	color: black;
 	text-decoration: none;
@@ -235,6 +237,10 @@ font-stretch: expanded;
 		transform: scale(4) ;
 
 	}
+
+	
+
+	
 
 	
 .css-filter--link:hover {
