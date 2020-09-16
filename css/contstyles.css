@@ -23,6 +23,12 @@ a {
 	text-decoration: none;
 }
 
+.phone {
+
+	position: fixed;
+	color:yellow;
+	line-height: 1.2em;
+}
 
 
 .concontent {
